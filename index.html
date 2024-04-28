@@ -1,89 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Retail Company</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f2f2f2;
-    }
-    header {
-        background-color: #333;
-        color: white;
-        padding: 10px;
-        text-align: center;
-    }
-    .button {
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-    }
-    .product {
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        border-bottom: 1px solid #ccc;
-    }
-    footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Company</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header button {
+            margin: 0 5<!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Retail Company</title>
+            <style>
+                body {
+                    background-color: #f0f0f0;
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                }
+                header {
+                    background-color: #333;
+                    color: white;
+                    padding: 10px;
+                    text-align: center;
+                }
+                .product {
+                    display: flex;
+                    margin: 20px;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+                .footer {
+                    background-color: #333;
+                    color: white;
+                    text-align: center;
+                    padding: 10px;
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%;
+                }
+            </style>
+            </head>
+            <body>
+            <header>
+                <h1>Retail Company</h1>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#products">Products</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </header>
+            <div id="products">
+                <div class="product">
+                    <img src="product1.jpg" alt="Product 1">
+                    <div>
+                        <h2>Product 1</h2>
+                        <p>Description of Product 1</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Product 2">
+                    <div>
+                        <h2>Product 2</h2>
+                        <p>Description of Product 2</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="product3.jpg" alt="Product 3">
+                    <div>
+                        <h2>Product 3</h2>
+                        <p>Description of Product 3</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Repeat the above product structure for the remaining products -->
+            </div>
+            <footer class="footer">
+                <p>&copy; 2023 Retail Company</p>
+            </footer>
+            <script>
+                // You can add JavaScript functionality here
+            </script>
+            </body>
+            </html>px;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+        }
+
+        .product-details {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .product-details h3 {
+            margin-top: 0;
+        }
+
+        .product-details p {
+            margin-top: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-
-<header>
-    <h1>Retail Company</h1>
-    <a href="#home" class="button">Home</a>
-    <a href="#products" class="button">Products</a>
-</header>
-
-<div id="products">
-    <div class="product">
-        <img src="product1.jpg" alt="Product 1">
-        <div>
-            <h2>Product 1</h2>
-            <p>Description of Product 1</p>
-            <button class="button">Buy Now</button>
+    <header><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Retail Company</title>
+        <style>
+            body {
+                background-color: #f5f5f5;
+                font-family: Arial, sans-serif;
+            }
+    
+            header {
+                background-color: #333;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+    
+            header button {
+                margin: 0 5px;
+            }
+    
+            .product {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px;
+            }
+    
+            .product img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                margin: 10px;
+            }
+    
+            .product-details {
+                flex: 1;
+                padding: 10px;
+            }
+    
+            .product-details h3 {
+                margin-top: 0;
+            }
+    
+            .product-details p {
+                margin-top: 5px;
+            }
+    
+            footer {
+                background-color: #333;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Retail Company</h1>
+            <nav>
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="product">
+            <!-- Product 1 -->
+            <div class="product-details">
+                <h3>Product 1</h3>
+                <p>Description of Product 1</p>
+            </div>
+            <img src="product1.jpg" alt="Product 1">
+    
+            <!-- Product 2 -->
+            <div class="product-details">
+                <h3>Product 2</h3>
+                <p>Description of Product 2</p>
+            </div>
+            <img src="product2.jpg" alt="Product 2">
+    
+            <!-- Repeat for 8 more products -->
+    
+            <!-- Product 10 -->
+            <div class="product-details">
+                <h3>Product 10</h3>
+                <p>Description of Product 10</p>
+            </div>
+            <img src="product10.jpg" alt="Product 10">
         </div>
+    
+        <footer>
+            <p>&copy; 2022 Retail Company. All rights reserved.</p>
+        </footer>
+    
+        <script>
+            // Add your JavaScript code here if needed
+        </script>
+    </body>
+    </html>
+        <h1>Retail Company</h1>
+        <button>Home</button>
+        <button>Contact Us</button>
+    </header>
+
+    <div class="product">
+        <!-- Product 1 -->
+        <div class="product-details">
+            <h3>Product 1</h3>
+            <p>Description of Product 1</p>
+        </div>
+        <img src="product1.jpg" alt="Product 1">
+
+        <!-- Product 2 -->
+        <div class="product-details">
+            <h3>Product 2</h3>
+            <p>Description of Product 2</p>
+        </div>
+        <img src="product2.jpg" alt="Product 2">
+
+        <!-- Repeat for 8 more products -->
+
+        <!-- Product 10 -->
+        <div class="product-details">
+            <h3>Product 10</h3>
+            <p>Description of Product 10</p>
+        </div>
+        <img src="product10.jpg" alt="Product 10">
     </div>
-    <!-- Repeat the above product block for each product -->
-</div>
 
-<footer>
-    <p>&copy; 2021 Retail Company. All Rights Reserved.</p>
-</footer>
+    <footer>
+        <p>&copy; 2022 Retail Company. All rights reserved.</p>
+    </footer>
 
-<form>
-    <h2>Contact Us</h2>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-    <button class="button">Submit</button>
-</form>
-
-<script>
-    // Add any JavaScript functionality here
-</script>
-
+    <script>
+        // Add your JavaScript code here if needed
+    </script>
 </body>
 </html>
